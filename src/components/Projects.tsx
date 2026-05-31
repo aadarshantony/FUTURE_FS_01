@@ -14,7 +14,7 @@ const projects = [
             "Emergency response and victim identification system designed to reduce accident response times and save lives.",
         year: "2026",
         stack: ["React", "Node.js", "MongoDB"],
-        link: "https://jeevanid.vercel.app",
+        link: "https://github.com/aadarshantony/JeevanID",
     },
     {
         id: "03",
@@ -23,7 +23,7 @@ const projects = [
             "Modern library management system with QR-based circulation, student activity tracking, analytics dashboards, and automated communication workflows.",
         year: "2025",
         stack: ["React", "Express", "MongoDB"],
-        link: "https://booknest-u4rq.onrender.com/",
+        link: "https://github.com/aadarshantony/BookNest-LibraryManagementSystem",
     }
 ];
 
