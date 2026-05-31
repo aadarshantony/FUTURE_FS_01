@@ -9,15 +9,6 @@ const featuredProject = {
 const projects = [
     {
         id: "02",
-        title: "IEDC MGMCET Website",
-        description:
-            "Digital platform powering the innovation and startup ecosystem at MGM College.",
-        year: "2026",
-        stack: ["Next.js", "TypeScript", "Cloudinary"],
-        link: "https://iedc.mgmcet.ac.in",
-    },
-    {
-        id: "03",
         title: "JeevanID",
         description:
             "Emergency response and victim identification system designed to reduce accident response times and save lives.",
@@ -26,7 +17,7 @@ const projects = [
         link: "https://jeevanid.vercel.app",
     },
     {
-        id: "04",
+        id: "03",
         title: "BookNest",
         description:
             "Modern library management system with QR-based circulation, student activity tracking, analytics dashboards, and automated communication workflows.",
