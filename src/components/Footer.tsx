@@ -20,15 +20,15 @@ const Footer = () => {
         }}
       />
 
-      <div className="relative mx-auto max-w-7xl px-8 py-24 lg:px-12">
-        <div className="grid gap-16 lg:grid-cols-3">
+      <div className="relative mx-auto max-w-7xl px-5 sm:px-8 py-16 sm:py-20 lg:py-24 lg:px-12">
+        <div className="grid gap-12 sm:gap-16 sm:grid-cols-2 lg:grid-cols-3">
           {/* Brand */}
-          <div>
+          <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-6 text-sm uppercase tracking-[0.35em] text-white/40">
               Portfolio 2026
             </div>
 
-            <h3 className="text-5xl font-black leading-none tracking-tight">
+            <h3 className="text-4xl sm:text-5xl font-black leading-none tracking-tight">
               Building
               <br />
               digital
@@ -49,19 +49,13 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-              {[
-                "About",
-                "Projects",
-                "Stack",
-                "Contact",
-              ].map((item) => (
+              {["About", "Projects", "Stack", "Contact"].map((item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
                   className="group flex items-center justify-between border-b border-white/10 pb-3 text-white/70 transition hover:text-white"
                 >
                   <span>{item}</span>
-
                   <span className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
                     ↗
                   </span>
@@ -83,7 +77,6 @@ const Footer = () => {
               >
                 Email
               </a>
-
               <a
                 href="https://github.com"
                 target="_blank"
@@ -91,7 +84,6 @@ const Footer = () => {
               >
                 GitHub
               </a>
-
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -103,7 +95,6 @@ const Footer = () => {
 
             <div className="mt-10 flex items-center gap-3">
               <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
-
               <span className="text-xs uppercase tracking-[0.2em] text-white/40">
                 Available for work
               </span>
@@ -112,14 +103,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="mt-20 flex flex-col gap-4 border-t border-white/10 pt-8 text-sm text-white/40 lg:flex-row lg:items-center lg:justify-between">
-          <span>
-            © 2026 Adarsh
-          </span>
-
-          <span>
-            Designed & Developed by Adarsh
-          </span>
+        <div className="mt-16 sm:mt-20 flex flex-col gap-3 border-t border-white/10 pt-8 text-sm text-white/40 sm:flex-row sm:items-center sm:justify-between">
+          <span>© 2026 Adarsh</span>
+          <span>Designed & Developed by Adarsh</span>
         </div>
       </div>
     </footer>
