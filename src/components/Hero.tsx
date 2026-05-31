@@ -9,7 +9,7 @@ const Hero = () => {
 
                 <div className="mb-6 sm:mb-8 flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-[#7A6E65]">
                     <span className="h-px w-10 bg-[#7A6E65]" />
-                    Full Stack Developer • UI/UX Designer
+                    Full Stack Developer
                 </div>
 
                 <h1 className="relative z-10 text-[clamp(3.5rem,12vw,10rem)] font-black leading-[0.85] tracking-tighter text-[#1C1410]">
