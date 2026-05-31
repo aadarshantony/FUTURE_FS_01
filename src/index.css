@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #F0EBE1;
+  --espresso: #1C1410;
+  --flame: #E8521A;
+  --olive: #5C6B3A;
+  --blush: #D4987A;
+  --stone: #7A6E65;
+}
+
+@keyframes morph {
+  0%,100% {
+    border-radius: 60% 40% 55% 45% / 50% 55% 45% 50%;
+  }
+  33% {
+    border-radius: 40% 60% 45% 55% / 55% 45% 55% 45%;
+  }
+  66% {
+    border-radius: 55% 45% 60% 40% / 45% 55% 40% 60%;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.marquee {
+  animation: marquee 25s linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
